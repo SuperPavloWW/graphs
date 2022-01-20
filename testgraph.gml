@@ -44,7 +44,7 @@ graph [
     Longitude -121.89496
     Internal 1
     Latitude 37.33939
-	FLOPS 10
+	FLOPS 0
   ]
   node [
     id 2
@@ -53,7 +53,7 @@ graph [
     Longitude -93.26384
     Internal 1
     Latitude 44.97997
-	FLOPS 10
+	FLOPS 0
   ]
   node [
     id 3
@@ -71,19 +71,19 @@ graph [
     Longitude -96.80667
     Internal 1
     Latitude 32.78306
-	FLOPS 10
+	FLOPS 0
   ]
   edge [
     source 0
     target 1
     id "e0"
-	Capacity 100
+	Capacity 10000000
   ]
   edge [
     source 3
     target 1
     id "e1"
-	Capacity 100
+	Capacity 10000000
   ]
   edge [
     source 4

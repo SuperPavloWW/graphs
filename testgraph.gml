@@ -30,7 +30,7 @@ graph [
   Testbed 0
   node [
     id 0
-    label "Seattle"
+    label "d"
     Country "United States"
     Longitude -122.33207
     Internal 1
@@ -39,7 +39,7 @@ graph [
   ]
   node [
     id 1
-    label "San Jose"
+    label "e"
     Country "United States"
     Longitude -121.89496
     Internal 1
@@ -48,7 +48,7 @@ graph [
   ]
   node [
     id 2
-    label "Minneapolis"
+    label "a"
     Country "United States"
     Longitude -93.26384
     Internal 1
@@ -57,7 +57,7 @@ graph [
   ]
   node [
     id 3
-    label "Vienna"
+    label "c"
     Country "United States"
     Longitude -77.26526
     Internal 1
@@ -66,7 +66,7 @@ graph [
   ]
   node [
     id 4
-    label "Dallas"
+    label "b"
     Country "United States"
     Longitude -96.80667
     Internal 1

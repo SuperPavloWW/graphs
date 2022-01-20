@@ -57,15 +57,6 @@ graph [
   ]
   node [
     id 3
-    label "Chicago"
-    Country "United States"
-    Longitude -87.65005
-    Internal 1
-    Latitude 41.85003
-	FLOPS 10
-  ]
-  node [
-    id 4
     label "Vienna"
     Country "United States"
     Longitude -77.26526
@@ -74,7 +65,7 @@ graph [
 	FLOPS 10
   ]
   node [
-    id 5
+    id 4
     label "Dallas"
     Country "United States"
     Longitude -96.80667
@@ -89,38 +80,27 @@ graph [
 	Capacity 100
   ]
   edge [
-    source 0
-    target 3
+    source 3
+    target 1
     id "e1"
 	Capacity 100
   ]
   edge [
-    source 1
-    target 3
+    source 4
+    target 0
     id "e2"
-	Capacity 100
-  ]
-  edge [
-    source 1
-    target 4
 	Capacity 100
   ]
   edge [
     source 2
     target 3
+    id "e3"
+	Capacity 100
+  ]
+  edge [
+    source 2
+    target 0
     id "e4"
-	Capacity 100
-  ]
-  edge [
-    source 3
-    target 4
-    id "e5"
-	Capacity 100
-  ]
-  edge [
-    source 3
-    target 5
-    id "e6"
 	Capacity 100
   ]
 ]
